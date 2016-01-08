@@ -8,12 +8,7 @@
 	
 	$tblName = $_GET['tableName'];
 
-	// $tblName = "course";
-	// $fieldName = "course_name";
-
 	$sqlSelect = "SELECT * FROM $tblName";
-
-	// echo $sqlSelect;
 
 	$result = $conn->query($sqlSelect);
 

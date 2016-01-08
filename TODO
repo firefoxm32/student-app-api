@@ -1,0 +1,24 @@
+TODO:
+Login module
+1. Create api for login (done)
+2. send the parameter value from app to api e.g (user_id, password) (done)
+3. return the parameter after request and display e.g (log) (done)
+4. if task #3 is successfull create query for auth (done)
+5. if apache webserver is unavailabe show a message (server is unavailable) (done)
+6. if auth successful show main menu
+
+Database Structure
+1. design ER diagram
+ - schedule module
+ - grades module
+ - users
+ note: check screens or layout of schedule and grades for reference
+
+2. create a table for subject with fields
+3. create schedule table with fields and create a relation for subject
+
+//////////////////////////////////////////////////////////////////////
+1. create java application via php api call
+   - Java app
+   - Api (PHP)
+
